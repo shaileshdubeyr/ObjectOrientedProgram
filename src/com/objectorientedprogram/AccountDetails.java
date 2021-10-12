@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AccountDetails {
 	static Scanner customerchoice = new Scanner(System.in);
 
-	public static double debitMoney(double amount)  {
+	public static double debitMoney(double amount) {
 		System.out.println("enter the amount to withdraw");
 		double debitAmount = customerchoice.nextDouble();
 		if (amount >= debitAmount)
