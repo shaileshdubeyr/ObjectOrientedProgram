@@ -1,7 +1,10 @@
 package com.objectorientedprogram;
 
 import java.util.Scanner;
+<<<<<<< HEAD
 
+=======
+>>>>>>> Account
 public class AccountDetails {
 	static Scanner customerchoice = new Scanner(System.in);
 
@@ -46,6 +49,10 @@ public class AccountDetails {
 			default:
 				System.out.println("Unable to preoess Entered wong input");
 				break;
+<<<<<<< HEAD
+=======
+
+>>>>>>> Account
 			}
 			if (choice == 'e') {
 				break;
