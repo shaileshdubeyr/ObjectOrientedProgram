@@ -3,38 +3,38 @@ package com.objectorientedprogram;
 import java.util.Scanner;
 
 public class StockPortfolio {
-	Scanner scandata  = new Scanner(System.in);
-	
+	Scanner scandata = new Scanner(System.in);
+
 	int NumOfStocks1, NumOfShares1, SharePrice1;
 	int NumOfStocks2, NumOfShares2, SharePrice2;
 	int NumOfStocks3, NumOfShares3, SharePrice3;
 
-public StockPortfolio() {
-	System.out.println("enter the stock1");
-    NumOfStocks1 = scandata.nextInt();
-    System.out.println("enter the stock1 sares");
-    NumOfShares1 = scandata.nextInt();
-    System.out.println("enter the stock1 price");
-    SharePrice1 = scandata.nextInt();
-    System.out.println("enter the stock2");
-    NumOfStocks2 = scandata.nextInt();
-    System.out.println("enter the stock2 sares");
-    NumOfShares2 = scandata.nextInt();
-    System.out.println("enter the stock2 price");
-    SharePrice2 = scandata.nextInt();
-    System.out.println("enter the stock3 stock");
-    NumOfStocks3 = scandata.nextInt();
-    System.out.println("enter the stock sares");
-    NumOfShares3 = scandata.nextInt();
-    System.out.println("enter the price");
-    SharePrice3 = scandata.nextInt();
-}
+	public StockPortfolio() {
+		System.out.println("enter the stock1");
+		NumOfStocks1 = scandata.nextInt();
+		System.out.println("enter the stock1 sares");
+		NumOfShares1 = scandata.nextInt();
+		System.out.println("enter the stock1 price");
+		SharePrice1 = scandata.nextInt();
+		System.out.println("enter the stock2");
+		NumOfStocks2 = scandata.nextInt();
+		System.out.println("enter the stock2 sares");
+		NumOfShares2 = scandata.nextInt();
+		System.out.println("enter the stock2 price");
+		SharePrice2 = scandata.nextInt();
+		System.out.println("enter the stock3 stock");
+		NumOfStocks3 = scandata.nextInt();
+		System.out.println("enter the stock sares");
+		NumOfShares3 = scandata.nextInt();
+		System.out.println("enter the price");
+		SharePrice3 = scandata.nextInt();
+	}
 
-	void nameOfStocks(String a, String b, String c) {
-		a = "Tata Power Share";
-		b = "Adani Share";
-		c = "Apollo Tyres Share";
-		System.out.println("Share I have :- " + a + " , " + b + " , " + c);
+	void nameOfStocks(String sareName1, String sareName2, String sareName3) {
+		sareName1 = "Tata Power Share";
+		sareName2 = "Adani Share";
+		sareName3 = "Apollo Tyres Share";
+		System.out.println("Share I have :- " + sareName1 + " , " + sareName2 + " , " + sareName3);
 	}
 
 	void Debit() {
