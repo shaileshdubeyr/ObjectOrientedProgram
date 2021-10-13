@@ -54,7 +54,7 @@ public class AccountDetails {
 
 >>>>>>> Account
 			}
-			if (choice == 'e') {
+			if ( choice == 'e' ) {
 				break;
 			}
 		}
