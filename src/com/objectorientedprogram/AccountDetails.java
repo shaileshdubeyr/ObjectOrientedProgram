@@ -47,7 +47,7 @@ public class AccountDetails {
 				break;
 
 			}
-			if (choice == 'e') {
+			if ( choice == 'e' ) {
 				break;
 			}
 		}
